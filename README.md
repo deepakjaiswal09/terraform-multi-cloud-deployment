@@ -73,9 +73,7 @@ terraform init -reconfigure
 ```
 📸 Screenshot 2: S3 bucket showing infra/terraform.tfstate file
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa88c2d8-0cbc-4e6c-8500-390ed0d67fdc" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0103eb88-8b13-44b2-9081-abf277098bbd" />
+<img width="1920" height="1080" alt="aws s3 bucket" src="https://github.com/user-attachments/assets/b8a0a1bb-4a55-4a3a-86af-4d20f83bc60a" />
 
 
 ### 3️⃣ Terraform Modules Implementation
