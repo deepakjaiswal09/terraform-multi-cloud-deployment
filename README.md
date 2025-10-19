@@ -59,6 +59,7 @@ multi-cloud-deployment-tf/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6c79a23-b725-4a1d-a4c4-babd5b5e7907" />
 
+
 ### 2️⃣ Setup S3 Backend
 
 -Created an S3 bucket manually using AWS CLI for storing Terraform remote state:
@@ -108,10 +109,16 @@ terraform apply -auto-approve
 
 📸 Screenshot 5: NGINX web pages hosted across AWS & GCP
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d9ee405-0046-48dd-bbbb-5ae08aeecad8" />
+1.Aws instance :
 
+<img width="1920" height="1080" alt="aws ec2 instance" src="https://github.com/user-attachments/assets/8bb1babd-26cf-4fd8-a474-ef3a81e238d3" />
+
+2. Gcp instance :
+   
 <img width="1920" height="1080" alt="gcp vm-3" src="https://github.com/user-attachments/assets/4e4264fe-ec31-472a-be97-c19dbc03a4fb" />
 
+3. Nginx seb serever on public ip :
+   
 <img width="1920" height="1080" alt="nginx web server running" src="https://github.com/user-attachments/assets/16e8e45e-816d-4741-831b-555c9f628f5a" />
 
 
