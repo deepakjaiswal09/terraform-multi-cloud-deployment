@@ -1,4 +1,4 @@
-# 🚀 DevOps Project – Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
+<img width="1920" height="1080" alt="aws s3 bucket" src="https://github.com/user-attachments/assets/242fbcef-f4b7-4655-a63c-3f8264878a59" /># 🚀 DevOps Project – Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
 
 ## 🧩 Overview
 This project demonstrates a multi-cloud infrastructure automation workflow using Terraform to provision identical NGINX web servers on AWS EC2 and GCP Compute Engine simultaneously.
@@ -57,7 +57,7 @@ multi-cloud-deployment-tf/
 
 📸 Screenshot 1: Provider configuration in Terraform
 
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6c79a23-b725-4a1d-a4c4-babd5b5e7907" />
 
 ### 2️⃣ Setup S3 Backend
 
@@ -73,6 +73,11 @@ terraform init -reconfigure
 ```
 📸 Screenshot 2: S3 bucket showing infra/terraform.tfstate file
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa88c2d8-0cbc-4e6c-8500-390ed0d67fdc" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0103eb88-8b13-44b2-9081-abf277098bbd" />
+
+
 ### 3️⃣ Terraform Modules Implementation
 
 -Created separate reusable modules for AWS and GCP.
@@ -80,6 +85,8 @@ terraform init -reconfigure
 -Used root main.tf to call both modules in one run.
 
 📸 Screenshot 3: VS Code project structure with modules and backend folders
+
+<img width="1920" height="1080" alt="vs folder structure" src="https://github.com/user-attachments/assets/571f327c-1534-49fb-a658-eb24ca9ed8b2" />
 
 
 ### 4️⃣ Execution Workflow
@@ -92,6 +99,8 @@ terraform apply -auto-approve
 ```
 📸 Screenshot 4: terraform apply showing success output with both public IPs
 
+<img width="1920" height="1080" alt="tf apply" src="https://github.com/user-attachments/assets/91324b39-3ecd-4080-b293-991d00a9f3bd" />
+
 
 ### 5️⃣ Verify Deployment
 
@@ -100,6 +109,13 @@ terraform apply -auto-approve
 -Verified NGINX server hosted successfully on both via public IPs.
 
 📸 Screenshot 5: NGINX web pages hosted across AWS & GCP
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d9ee405-0046-48dd-bbbb-5ae08aeecad8" />
+
+<img width="1920" height="1080" alt="gcp vm-3" src="https://github.com/user-attachments/assets/4e4264fe-ec31-472a-be97-c19dbc03a4fb" />
+
+<img width="1920" height="1080" alt="nginx web server running" src="https://github.com/user-attachments/assets/16e8e45e-816d-4741-831b-555c9f628f5a" />
+
 
 ## ⚡ Challenges & Solutions
 
@@ -124,7 +140,7 @@ terraform apply -auto-approve
 
 ## ✅ Acknowledgement
 
-I successfully completed this DevOps internship project by implementing a production-grade multi-cloud infrastructure automation using Terraform, AWS, GCP, and AWS S3.
+I successfully completed this project by implementing a production-grade multi-cloud infrastructure automation using Terraform, AWS, GCP, and AWS S3.
 Key learnings include modular Infrastructure as Code (IaC) design, secure state management with S3 backends, multi-provider cloud provisioning, credential security, and cross-cloud orchestration through a single Terraform workflow.
 
 ## 🤝 Contributing
