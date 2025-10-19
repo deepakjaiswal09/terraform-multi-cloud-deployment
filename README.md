@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="aws s3 bucket" src="https://github.com/user-attachments/assets/242fbcef-f4b7-4655-a63c-3f8264878a59" /># 🚀 DevOps Project – Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
+# 🚀 DevOps Project – Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
 
 ## 🧩 Overview
 This project demonstrates a multi-cloud infrastructure automation workflow using Terraform to provision identical NGINX web servers on AWS EC2 and GCP Compute Engine simultaneously.
