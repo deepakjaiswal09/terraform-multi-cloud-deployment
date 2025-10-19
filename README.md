@@ -5,6 +5,9 @@ This project demonstrates a multi-cloud infrastructure automation workflow using
 Terraform is also configured with an AWS S3 remote backend for secure and versioned state management.
 This project was implemented as part of a DevOps internship, focusing on Infrastructure as Code (IaC), cloud provisioning, and multi-cloud automation best practices.
 
+<img width="1024" height="1024" alt="architecture diagram" src="https://github.com/user-attachments/assets/c53c302d-542d-4611-aeab-2e5dfc0732af" />
+
+
 ## 📌 Objective
 
 -Build and automate a multi-cloud deployment setup where:
