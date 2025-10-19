@@ -1,0 +1,50 @@
+# ==========================================================
+# Terraform & State Files
+# ==========================================================
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+.terraform/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==========================================================
+# Credentials & Keys
+# ==========================================================
+*.pem
+*.key
+*.json
+*credentials*
+terraform.tfvars
+**/terraform.tfvars
+*.env
+
+# ==========================================================
+# AWS / GCP Specific Files
+# ==========================================================
+# Prevent accidental commit of local cloud configs
+.aws/
+.gcp/
+.gcloud/
+.gcp-key.json
+**/terraform-key.json
+
+# ==========================================================
+# IDE / Editor Configs
+# ==========================================================
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# ==========================================================
+# OS & Miscellaneous
+# ==========================================================
+.DS_Store
+Thumbs.db
+*.log
+logs/
