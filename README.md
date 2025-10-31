@@ -1,4 +1,14 @@
-# 🚀 DevOps Project – Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
+# 🚀 DevOps Project – 🌐Highly Available Multi-Cloud Infrastructure Automation with Terraform, AWS & GCP
+
+This project demonstrates how multi-cloud infrastructure automation can enhance system availability and disaster recovery preparedness.
+Using Terraform, identical NGINX web servers are provisioned on AWS EC2 and GCP Compute Engine simultaneously — forming the base layer of a cross-cloud failover architecture.
+
+Terraform is also configured with an AWS S3 remote backend for secure and versioned state management, ensuring consistency and traceability across deployments.
+While this implementation focuses primarily on provisioning and synchronization, it lays the groundwork for future high-availability enhancements such as CDN-based routing, DNS-level failover, and global load balancing.
+
+This setup primarily demonstrates the first stage of a disaster recovery model — cross-cloud infrastructure replication.
+Although dynamic failover (via DNS or CDN) isn’t implemented in this phase, the design ensures both clouds can independently host the application, minimizing potential downtime risks.
+In real-world systems, this base could evolve into a fully automated, self-healing multi-cloud deployment with global routing and CDN-based load balancing.
 
 ## 🧩 Overview
 This project demonstrates a multi-cloud infrastructure automation workflow using Terraform to provision identical NGINX web servers on AWS EC2 and GCP Compute Engine simultaneously.
@@ -10,11 +20,11 @@ This project was implemented as part of a DevOps internship, focusing on Infrast
 
 ## 📌 Objective
 
--Build and automate a multi-cloud deployment setup where:
--Terraform provisions identical NGINX servers on both AWS and GCP.
--All infrastructure configurations are managed from a single Terraform codebase.
--State files are stored securely in an AWS S3 bucket for remote backend management.
--Modules are used to ensure reusability and scalability.
+- Build a multi-cloud foundation where identical infrastructure can run on AWS and GCP simultaneously.
+- Enable easy switching between cloud environments in case of outages or performance degradation.
+- Manage infrastructure from a single Terraform configuration using reusable modules.
+- Maintain remote, versioned Terraform state in AWS S3 for collaboration and disaster recovery readiness.
+- Serve as a base model for future high-availability architectures, integrating DNS failover or CDN routing later.
 
 ## 🛠 Tools & Services
 
@@ -131,6 +141,7 @@ terraform apply -auto-approve
 • PowerShell syntax errors → resolved using backtick () instead of backslash (`).
 • GCP JSON key mismatch → regenerated proper service account key.
 • AMI region conflict → used global Amazon Linux 2 AMI for compatibility.
+
 
 ## 🎯 Outcome
 
