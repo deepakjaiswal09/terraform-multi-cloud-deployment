@@ -10,8 +10,7 @@ terraform {
     }
   }
   backend "s3" {
-     bucket = "bucket-tf-stars-342"
-     bucket = "bucket-tf-staters-4"
+     bucket = "bucket-tf-state-342"
      key    = "terraform.tfstate"
      region = "eu-north-1"
    }
