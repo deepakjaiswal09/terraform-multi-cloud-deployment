@@ -18,4 +18,5 @@ resource "aws_instance" "aws_vm" {
 
 resource "aws_s3_bucket" "demo-bucket" {
   bucket = "bucket-tf-state-244"
+// depends_on = [ aws_instance.aws_vm ]
 }
